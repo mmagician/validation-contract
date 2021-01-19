@@ -28,53 +28,98 @@ Könizstrasse 33\\
 (hereinafter the ``Party B'').  \\
 
 This Agreement is with respect to the
-validation service operated on the Polkadot and/or Kusama network and is hereinafter referred to as the
-``Work.'' The parties hereto agree as follows: 
+validation service operated on the Kusama and/or Polkadot  network and is hereinafter referred to as the
+``Operation.'' The parties hereto agree as follows: 
 
 
-\section{Services}
+\section{Scope of Operation}
 
-What is the agreement about?
+The \textit{Operation} is composed of running one (or more) validator node(s) on the Kusama and / or Polkadot network, which consists (but is not limited to) of the following tasks.
+\begin{itemize}
+    \item \textbf{Technical}:
+    \begin{itemize}
+        \item Setup of validator nodes on dedicated cloud providers.
+        \item Setup and develop monitoring infrastructure to guarantee robust service.
+        \item Upgrade and maintenance of said infrastructure.
+        \item Develop and maintain technical documentation about the setup.
+    \end{itemize}
+    \item \textbf{Monitoring}
+    \begin{itemize}
+        \item Monitor the economic impact of the node(s) in the network. This means, to analyze how the node(s) perform relative to the others.
+    \end{itemize}
+    \item \textbf{Community Engagement}
+    \begin{itemize}
+        \item Handle requests from nominators via social media or other communication channels.
+        \item Generate and publish periodic transparency reports.
+    \end{itemize}
+    \item \textbf{Strategic Meetings}
+    \begin{itemize}
+        \item Decisions about spinning up additional or shut-down existing nodes.
+        \item Allocation of optimal self-stake and self-nominations across our nodes(s).
+        \item Adjust commission rate of node(s).
+    \end{itemize}
+\end{itemize}
 
 
-\section{Vision statement}
+\section{Vision and Goals}
 
-Shortly state what we want to achieve with the validation service and our personal goals. This is not binding but should give both parties an idea what to achieve and is a good place to come back to when critical choices for future operations must be done.
+In this section both parties illustrate their motivation in their pursue of the \textit{Operation} and clarify which goals to achieve. This is not binding but should give both parties a better understand of the intention of the other and is a good place to revisit in the case of strategic decisions in the future.\\
+
+\textbf{Party A}: \textit{``Give nominators a chance to know the team behind the validator.Give the validator a face! TBC.Fully-automated, secure \& (at some point) transparent (code-wise) validator set-up with a public profile. Always available for answering any questions that nominators may have."}
+\\
+
+\textbf{Party B}: \textit{``I have several goals for being a validator in the network. I want to be a part of the security of the network and promote decentralization. In addition, I want to learn the perspective of a validator, which can give me new ideas and insights for future projects to further improve the ecosystem. I also strive to be an operator, who is in close contact with the community. Generally, this should remain a side-project with priority. Also, it is super important for me to provide the most reliable service possible, as I feel responsible for the trust of nominators by nominating our nodes. Becoming a large operator with numerous nodes which practically impose a structural risk to the network is not desirable."}
+
 
 \section{Operational Events}
-What can happen in general?
-
-\subsection{Critical Events}
-\begin{itemize}
-    \item Slashing: Share punishment of slashing 50:50.
-    \item What else?
-\end{itemize}
+During the \textit{Operation} there are several events to be expected. Those are divided into regular and critical events. 
 
 \subsection{Regular Events}
 
 \begin{itemize}
-    \item Payouts from validation: 50:50
-    \item Costs to pay for infrastructure: 50:50
-    \item Capital provision: self-stake is provided 50:50
+    \item The payouts from the \textit{Operation} should be done daily and (what happens with them?)
+    \item The costs of \textit{Operation} (generally occurring monthly) are shared among both parties equally.
+    \item The collateral of every node (i.e. self-stake) is provided by both parties equally.
 \end{itemize}
 
 
+\subsection{Critical Events}
+\begin{itemize}
+    \item \textbf{Slash}: In the case that any node of is slashed, the resulting damage to the self-stake of the node(s) is burdened equally by both parties. This is irrespective of who caused the slash, as long as it was not intentional. If it was intentional, the causing party is responsible to compensate the other party.
+    \item What else?
+\end{itemize}
+
+
+\subsection{Multisignature Accounts}
+For the \textit{Operation}, a multi-signature account is generated with a threshold of 2-of-3. The third part is a trusted third-party to both parties. The situation that the third-party signs any extrinsic is considered a special case and can have the following reasons:
+
+\begin{itemize}
+    \item Either Party A or Party B is not responsive over a period of 7 days and certain operational tasks need to be executed.
+    \item If Party A and Party B have a dispute and cannot unanimously agree how to operate further. In this case, both parties can involve the trusted third-party as moderator to try to reach a consensus. Discussion must take place in the presence of both Party A and Party B. If there is no consensus between Party A and Party B after the discussions, the trusted third-party must announce which side to follow.
+\end{itemize}
+
 \section{Contract Length and Availability}
 
-No contact length, until cancelled
+There is no specified contract length and is valid until canceled by either one of Party A or Party B.
 
 \section{Termination}
 
-Either party may terminate this Agreement by giving 30 days written notice
-to the other of such termination. 
+Either party may terminate this Agreement by giving 30 days written notice to the other of such termination. In the case one party wishes to retract from the contract, it must give the other party the option to overtake the full operation. In addition, the leaving party is obliged to give full support in doing so. This includes:
+\begin{itemize}
+    \item Changing the accounts from multi-signature to an account where the private key belongs to the party overtaking the operation.
+    \item Transferring all rights and ownership of the infrastructure (e.g., cloud-providers).
+     \item Transferring all rights and ownership of the social media accounts attached to the operation.
+\end{itemize}
+In addition, the leaving party must give the opportunity to the other party to buy out the self-stake and potentially other collateral. 
 
-The party who wants to quit the agreement needs to give the other party a chance to overtake the full operation. This includes paying out the stake, overtaking the infrastructure etc.
+If both parties wish to halt the \textit{Operation} this can be done immediately.
 
 \section{Confidentiality}
 
-Both parties hold the private keys to all on-chain accounts (validator keys and keys to the on-chain identity). No party is allowed to share those keys with any third-party at any given time.
+Each party has one private key to the multi-signature account and is not allowed to share this key with any other party. In addition, all agreements and communications about the \textit{Operation} is held confidential if not discussed otherwise.
 
-
+\section{Code-of-Conduct}
+By signing this contract both parties agree to stay transparent to each other and act in the best interest of the \textit{Operation}. In addition, the fundamental principles of a decentralized network should be valued and pursued.
 
 \vspace{1cm} 
 
